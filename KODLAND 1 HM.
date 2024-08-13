@@ -1,0 +1,21 @@
+meme_dict = {
+            "CRINGE": "Garip ya da utandırıcı bir şey",
+            "LOL": "Komik bir şeye verilen cevap",
+            "LMAO":"Küfür Aewwqdesağflsafsada", 
+            "ROFL":"bir şakaya karşılık cevap",
+            "SHEESH":"onaylamamak",
+            "CREEPY":"Korkunç",
+            "AGGRO":"Agresifleşmek / Sinirlenmek",
+            "GG":"Grabs Gun (Silahı Alır) Good Game (İyi Oyun) vb.",
+            "TOXIC":"Fazla Dalga Geçen Kişilere Denir.",
+            "BRB":"Be Right Back (Hemen Geleceğim) anlamına gelir",
+            }
+            
+
+
+word = input("Anlamadığınız bir kelime yazın [Hepsi Büyük Harfle...] ")
+
+if word in meme_dict.keys():
+    print(meme_dict[word])
+else:
+    print("Code.Error.Log . . . [ .word not found. ]")
